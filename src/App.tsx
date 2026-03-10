@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
 import Inventory from './pages/Inventory';
 import Service from './pages/Service';
@@ -33,6 +34,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
+        <FloatingButtons />
       </div>
     </Router>
   );
